@@ -1,0 +1,57 @@
+/* Default styles, hidden for desktop */
+.navbar-nav {
+    display: none;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: block;
+    }
+  
+    /* Additional styles for mobile menu */
+    .navbar-nav .nav-item {
+      display: block;
+    }
+  
+    .navbar-nav .dropdown-menu {
+      display: none; /* Initially hide dropdown */
+    }
+  
+    .navbar-nav .dropdown-menu.show {
+      display: block; /* Show dropdown when active */
+    }
+  }
+  .nav{
+    padding-top: 3px;
+  }
+  @media screen and (max-width: 768px) {
+    .row bg-secondary .hide{
+        display: none !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+  .hide{
+    display: none;
+  }
+  
+}
+
+a{
+  color: blue;
+}
+.text-primary{
+  color: blue !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: blue;
+  border-color: #fff;
+}
+.bg-primary {
+  background-color: blue !important;
+}
+.slick-slide img {
+  display: inline-block !important;
+  width: 40vh !important;
+}
